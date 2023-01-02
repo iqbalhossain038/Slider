@@ -1,0 +1,76 @@
+/*============= Common CSS ==============*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+/*============= Header CSS ==============*/
+
+header#header_area {background: #13121F;color: #fff;border-radius: 8px;}
+
+.headerWrapper {overflow: hidden;}
+
+.box {width: 33.333%;float: left;}
+
+.box.menu_bar i {font-size: 42px;cursor: pointer;padding: 13px 0px;position: relative;float: left;}
+
+.box.site_menu {text-align: right;float: left;margin: 0;}
+
+.box.site_menu ul li a {text-decoration: none;color: #ddd;font-size: 15px;}
+
+.site_img {margin-top: -62px;width: 58px;float: right;}
+
+.box.site_menu ul {margin-right: 85px;padding: 7px 0;margin-bottom: 0;}
+
+.site_img img {width: 96%;border-radius: 100%;height: 53px;}
+
+.box.header_title {text-align: center;display: grid;place-items: center;font-size: 21px;}
+
+.box.header_title h1 {font-weight: bold;width: 175px;background: #000;padding: 6px 0;}
+.box.site_menu ul li {line-height: 18px;}
+.background_wrapper {overflow: hidden;/* height: 562px; */width: 1325px;margin: auto;}
+
+.background {/* background: url(../img/background.jpg); */background-repeat: no-repeat;background-size: cover;color: #fff;position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+
+section#background_area {margin-top: 5px;}
+
+.message1 h2 {width: 390px;padding: 17px 12px;background: #000;border-radius: 17px;font-size: 40px;font-weight: normal;}
+
+.message1 {padding: 20px 5px;}
+.message2 p {background: #000;width: 458px;padding: 25px 28px;border-radius: 24px;color: #ddd;float: right;}
+
+.message3 {padding: 10px 16px;margin-top: 205px;width: 569px;background: #000;height: 85px;border-radius: 20px;margin-left: 5px;}
+
+.signleIcon {float: left;/* position: absolute; */}
+
+.signleIcon {/* background: #000; */text-align: center;width: 81px;/* height: 85px; */padding: 0px 0px;margin-right: 10px;}
+
+.signleIcon i {font-size: 30px;}
+
+.signleIcon p {font-size: 10px;margin-top: 3px;}
+.signleIcon:nth-child(6) {margin-right: 0px;}
+.submenu {z-index: 999;position: absolute;background: #000;width: 98.2%;height: 582px;display: grid;place-items: center;opacity: 0.6;/* box-sizing: unset; *//* padding-bottom: 114px; */overflow: hidden;display: none;}
+
+ul.submenu1 li a {color: #fff;text-decoration: none;font-size: 28px;line-height: 38px;display: block;opacity: 1 !important;}
+ul.submenu1 {/* display: grid; */place-items: center;margin-top: 122px;width: 205px;margin-left: auto;margin-right: auto;}
+.close_b {float: right;margin-right: 5%;margin-top: 34px;text-align: center;justify-content: center;}
+
+.close_b i {border: 1px solid #fff;;;;;;;;border-radius: 100%;width: 55px !important;height: 55px !important;display: grid;place-items: center;font-size: 33px !important;text-align: center;justify-content: center;;}
+p.menu_tt {padding-top: 22px;padding-left: 50px;font-size: 15px;color: #eee;}
+.bx-wrapper .bx-pager {display: none;}
+.item img {position: relative;width: 100%;height: 100%;border-radius: 5px;}
+
+.item {color: #fff;height: 100%;}
+.bx-wrapper {margin: 0;}
+a.bg_wh {
+    margin-left: -34px;
+}
+.signleIcon img {
+    width: 42px;
+    margin: auto;
+}
